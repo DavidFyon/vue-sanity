@@ -2,8 +2,9 @@
   command = "npm run build"
   publish = "dist"
   environment = { NODE_VERSION = "14" }
+  functions = "./functions"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200
+  status = 200 
